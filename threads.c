@@ -4,7 +4,7 @@ void *funkcja_watku(void *arg) {
   // Kod wykonywany przez wątek
   for (int i = 0; i < 10; i++) {
     printf("Wątek: %d\n", i);
-    sleep(3);
+    sleep(1);
   }
   return NULL;
 }
